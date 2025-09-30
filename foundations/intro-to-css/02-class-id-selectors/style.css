@@ -1,1 +1,17 @@
 /* Add CSS Styling */
+.same{
+    background-color: pink;
+    font-family: verdana, Dejavu Sans, sans-serif;
+}
+#id2{
+color: blue;
+font-size: 36px;
+}
+#id3{
+    font-size: 24px;
+}
+#id4{
+background-color: lightgreen;
+font-size: 24px;
+font-weight: bold;
+}

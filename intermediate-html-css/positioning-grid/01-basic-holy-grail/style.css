@@ -9,6 +9,9 @@ html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  display: grid; /*mine*/
+  grid-template: 100px 100px 500px 100px / 300px 900px; /*mine*/
+  gap: 15px; /*mine*/
 }
 
 .container div {
@@ -22,14 +25,17 @@ html {
 
 .header {
   background-color: #006157;
+  grid-column: 1 / 3; /*mine*/
 }
 
 .sidebar {
   background-color: #005B94;
+  grid-row: 2 / 4; /*mine*/
 }
 
 .nav {
   background-color: #642cde;
+
 }
 
 .article {
@@ -38,11 +44,11 @@ html {
 
 .footer {
   background-color: #393f4d;
+  grid-column: 1 / 3; /*mine*/
 }
 
 .article p {
   font-size: 18px;
   font-family: sans-serif;
-  color: white;
   text-align: left;
 }
